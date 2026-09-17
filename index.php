@@ -1,60 +1,78 @@
 <?php
 $team = [
 	[
-        'name' => '',
+        'name' => 'Sydney Boomer',
 		'role' => '',
 		'link' => '',
-		'desiredJobTitle' => '',
-		'email' => '',
-		'phoneNumber' => '',
-		'linkedin' => '',
-		'github' => '',
-		'personalWebsite' => '',
+		'desiredJobTitle' => 'Software Developer',
+		'email' => 'boomers1@nku.edu',
+		'phoneNumber' => '(123) 456 - 7890',
+		'linkedin' => 'https://www.linkedin.com/in/sydney-boomer/',
+		'github' => 'https://github.com/SydneyBoomer',
+		'personalWebsite' => 'https://sydneyboomer.github.io/INF286_FinalProject_PersonalSite/',
 		'workExperience' => [
-            [
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
-                'organization' => '',
-				'achievementsDescription' => '',
-				'achievements' => [
-					"achievement1", "achievement2"
-				],
-                'technologiesUsed' => [
-					"tech1", "tech2",
-				]
-            ],
 			[
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
-                'organization' => '',
+				'title' => 'Agency Interface Developer',
+				'description' => 'Work as an Agency Interface Developer Intern, collaborating closely with a developer and participating in daily team standups. Contribute to software development projects while gaining experience working with APIs, GitHub, and team development workflows.',
+				'company' => 'Cincinnati Insurance Company',
+				'timeWorked' => 'August 2026 - Present',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Organized a team-wide GitHub repository containing 29 API collections and hundreds of API calls.", 
+					"Standardized the formatting and structure of API collections to improve consistency and maintainability across the team.",
+					"Worked with existing API collections to organize and prepare them for easier use and collaboration within the team."
 				],
-                'technologiesUsed' => [
-					"tech1", "tech2",
+				'technologiesUsed' => [
+					"GitHub", "APIs", "Bruno", "PowerShell"
 				]
-            ],
+			],
 			[
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
-                'organization' => '',
+				'title' => 'Supplemental Instruction Leader',
+				'description' => 'Lead peer-assisted study sessions for Computer Systems, helping students understand challenging topics through collaborative problem-solving and active learning.',
+				'company' => 'Northern Kentucky University',
+				'timeWorked' => 'January 2026 - Present',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Facilitate study sessions for 5-15 students covering topics such as assembly language, registers, addressing modes, memory hierarchy, and memory management.",
+					"Use group discussions, worked examples, and guided questions to help students develop their understanding of complex computer systems concepts.",
+					"Collaborate with the course instructor and regularly attend lectures to align SI sessions with course material and learning objectives."
 				],
-                'technologiesUsed' => [
-					"tech1", "tech2",
+				'technologiesUsed' => [
+					"Assembly Language", "Computer Systems", "Memory Management"
 				]
-            ]
-		]
-    ],
+			],
+			[
+				'title' => 'Mathematics Tutor',
+				'description' => 'Provide individual and small-group mathematics tutoring in a supportive environment, helping students build confidence and strengthen their problem-solving skills.',
+				'company' => 'Northern Kentucky University',
+				'timeWorked' => 'November 2024 - Present',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"Tutor 3-4 students during a three-hour period on a range of mathematics and statistics topics.",
+					"Explain difficult concepts in ways that are accessible to students with different levels of understanding.",
+					"Encourage collaborative problem-solving and create a judgment-free environment for students to ask questions."
+				],
+				'technologiesUsed' => [
+					"Mathematics", "Statistics", "Problem Solving"
+				]
+			],
+			[
+				'title' => 'Assistant Coach',
+				'description' => 'Support daily restaurant operations while providing customer service, supervising team members, and helping maintain an efficient and welcoming environment.',
+				'company' => 'Chick-fil-A',
+				'timeWorked' => 'August 2022 - Present',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"Serve 100+ guests during a three-hour period while maintaining a fast-paced and welcoming environment.",
+					"Supervise and support a team of 12, helping with shift transitions, team morale, and adherence to food safety and service standards.",
+					"Train and onboard new team members, helping them quickly learn operational procedures and expectations."
+				],
+				'technologiesUsed' => [
+					"Team Leadership", "Customer Service", "Training", "Communication"
+				]
+			]
+    	]
+	]
 
     [
         'name' => '',
