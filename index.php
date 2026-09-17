@@ -426,9 +426,5 @@ $team = [
 		}
 		?></small>
     </footer>
-
-    
-
 </body>
 </html> 
-
