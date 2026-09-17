@@ -1,5 +1,24 @@
 <?php
 // INSERT DATA HERE.
+$team = [
+	[
+        'name' => '',
+		'role' => '',
+		'link' => ''
+    ],
+
+    [
+        'name' => '',
+		'role' => '',
+		'link' => ''
+    ],
+
+    [
+        'name' => '',
+		'role' => '',
+		'link' => ''
+    ]
+];
 
 ?>
 <!DOCTYPE html>
