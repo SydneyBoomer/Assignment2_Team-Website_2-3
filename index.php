@@ -1,23 +1,171 @@
 <?php
-// INSERT DATA HERE.
 $team = [
 	[
         'name' => '',
 		'role' => '',
 		'link' => '',
-		'desiredJobTitle' => ''
+		'desiredJobTitle' => '',
+		'email' => '',
+		'phoneNumber' => '',
+		'linkedin' => '',
+		'github' => '',
+		'personalWebsite' => '',
+		'workExperience' => [
+            [
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ],
+			[
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ],
+			[
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ]
+		]
     ],
 
     [
         'name' => '',
 		'role' => '',
-		'link' => ''
+		'link' => '',
+		'desiredJobTitle' => '',
+		'email' => '',
+		'phoneNumber' => '',
+		'linkedin' => '',
+		'github' => '',
+		'personalWebsite' => '',
+		'workExperience' => [
+            [
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ],
+			[
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ],
+			[
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ]
+		]
     ],
 
     [
         'name' => '',
 		'role' => '',
-		'link' => ''
+		'link' => '',
+		'desiredJobTitle' => '',
+		'email' => '',
+		'phoneNumber' => '',
+		'linkedin' => '',
+		'github' => '',
+		'personalWebsite' => '',
+		'workExperience' => [
+            [
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ],
+			[
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ],
+			[
+                'title' => '',
+                'description' => '',
+				'company' => '',
+                'timeWorked' => '',
+                'organization' => '',
+				'achievementsDescription' => '',
+				'achievements' => [
+					"achievement1", "achievement2"
+				],
+                'technologiesUsed' => [
+					"tech1", "tech2",
+				]
+            ]
+		]
     ]
 ];
 
