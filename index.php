@@ -74,48 +74,53 @@ $team = [
     	],
 		'skills' => [
 			// KEEP TO TOP 5, list others in otherSkills
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0]
+			['skill' => 'Python', 'percent' => 90],
+			['skill' => 'C++', 'percent' => 85],
+			['skill' => 'Java', 'percent' => 85],
+			['skill' => 'SQL', 'percent' => 80],
+			['skill' => 'GitHub', 'percent' => 85]
+
 		],
 		'otherSkills' => [
-			"skill1, skill2"
+			"HTML5",
+			"MITRE ATT&CK",
+			"Team Leadership",
+			"Critical Thinking",
+			"Adaptability"
 		],
 		'education' => [
 			[
-				'degree' => '',
-				'university' => '',
-				'graduation' => '',
-				'gpa' => ''
+				'degree' => 'Bachelor of Science in Computer Science',
+				'university' => 'Northern Kentucky University',
+				'graduation' => 'Expected May 2027',
+				'gpa' => '3.987'
 			],
 			[
-				'degree' => '',
-				'university' => '',
-				'graduation' => '',
-				'gpa' => ''
+				'degree' => 'Bachelor of Science in Cybersecurity',
+				'university' => 'Northern Kentucky University',
+				'graduation' => 'Expected May 2027',
+				'gpa' => '3.987'
 			]
 		],
 		'awards' => [
 			[
-				'name' => '',
-				'description' => ''
+				'name' => 'Michael Francis Zalla Honors Scholarship',
+				'description' => 'Scholarship awarded through Northern Kentucky University for academic achievement.'
 			],
 			[
-				'name' => '',
-				'description' => ''
+				'name' => 'Chick-fil-A Remarkable Futures Scholarship',
+				'description' => 'Scholarship awarded to support college education and academic goals.'
 			]
 		],
 		'languages' => [
-			"lang1", "lang2"
+			"English"
 		],
 		'projects' => [
 			[
-				'imageLink' => '',
-				'name' => '',
-				'description' => '',
-				'link' => ''
+				'imageLink' => '\assets\images\nkCyberLogo.png',
+				'name' => 'Sky Sentry: Multi-Factor Authentication System',
+				'description' => 'Developed a multi-factor authentication system with a team of three using facial recognition and RFID/swipe authentication for NKCyber and WiCyS.',
+				'link' => 'https://github.com/nkcyber/RND-SkySentry.git'
 			]
 		]
 	],
