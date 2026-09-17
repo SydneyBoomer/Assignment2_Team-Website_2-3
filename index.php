@@ -4,7 +4,8 @@ $team = [
 	[
         'name' => '',
 		'role' => '',
-		'link' => ''
+		'link' => '',
+		'desiredJobTitle' => ''
     ],
 
     [
