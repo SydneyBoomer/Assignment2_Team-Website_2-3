@@ -71,9 +71,54 @@ $team = [
 					"Team Leadership", "Customer Service", "Training", "Communication"
 				]
 			]
-    	]
-	]
-
+    	],
+		'skills' => [
+			// KEEP TO TOP 5, list others in otherSkills
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0]
+		],
+		'otherSkills' => [
+			"skill1, skill2"
+		],
+		'education' => [
+			[
+				'degree' => '',
+				'university' => '',
+				'graduation' => '',
+				'gpa' => ''
+			],
+			[
+				'degree' => '',
+				'university' => '',
+				'graduation' => '',
+				'gpa' => ''
+			]
+		],
+		'awards' => [
+			[
+				'name' => '',
+				'description' => ''
+			],
+			[
+				'name' => '',
+				'description' => ''
+			]
+		],
+		'languages' => [
+			"lang1", "lang2"
+		],
+		'projects' => [
+			[
+				'imageLink' => '',
+				'name' => '',
+				'description' => '',
+				'link' => ''
+			]
+		]
+	],
     [
         'name' => '',
 		'role' => '',
@@ -90,13 +135,12 @@ $team = [
                 'description' => '',
 				'company' => '',
                 'timeWorked' => '',
-                'organization' => '',
 				'achievementsDescription' => '',
 				'achievements' => [
 					"achievement1", "achievement2"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2",
+					"tech1", "tech2"
 				]
             ],
 			[
@@ -104,13 +148,12 @@ $team = [
                 'description' => '',
 				'company' => '',
                 'timeWorked' => '',
-                'organization' => '',
 				'achievementsDescription' => '',
 				'achievements' => [
 					"achievement1", "achievement2"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2",
+					"tech1", "tech2"
 				]
             ],
 			[
@@ -118,15 +161,60 @@ $team = [
                 'description' => '',
 				'company' => '',
                 'timeWorked' => '',
-                'organization' => '',
 				'achievementsDescription' => '',
 				'achievements' => [
 					"achievement1", "achievement2"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2",
+					"tech1", "tech2"
 				]
             ]
+		],
+		'skills' => [
+			// KEEP TO TOP 5, list others in otherSkills
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0]
+		],
+		'otherSkills' => [
+			"skill1, skill2"
+		],
+		'education' => [
+			[
+				'degree' => '',
+				'university' => '',
+				'graduation' => '',
+				'gpa' => ''
+			],
+			[
+				'degree' => '',
+				'university' => '',
+				'graduation' => '',
+				'gpa' => ''
+			]
+		],
+		'awards' => [
+			[
+				'name' => '',
+				'description' => ''
+			],
+			[
+				'name' => '',
+				'description' => ''
+			]
+		],
+		'languages' => [
+			"lang1", "lang2"
+		],
+		'projects' => [
+			[
+				'imageLink' => '',
+				'name' => '',
+				'description' => '',
+				'link' => ''
+			]
 		]
     ],
 
@@ -146,13 +234,12 @@ $team = [
                 'description' => '',
 				'company' => '',
                 'timeWorked' => '',
-                'organization' => '',
 				'achievementsDescription' => '',
 				'achievements' => [
 					"achievement1", "achievement2"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2",
+					"tech1", "tech2"
 				]
             ],
 			[
@@ -160,13 +247,12 @@ $team = [
                 'description' => '',
 				'company' => '',
                 'timeWorked' => '',
-                'organization' => '',
 				'achievementsDescription' => '',
 				'achievements' => [
 					"achievement1", "achievement2"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2",
+					"tech1", "tech2"
 				]
             ],
 			[
@@ -174,15 +260,60 @@ $team = [
                 'description' => '',
 				'company' => '',
                 'timeWorked' => '',
-                'organization' => '',
 				'achievementsDescription' => '',
 				'achievements' => [
 					"achievement1", "achievement2"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2",
+					"tech1", "tech2"
 				]
             ]
+		],
+		'skills' => [
+			// KEEP TO TOP 5, list others in otherSkills
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0],
+			['skill' => '', 'percent' => 0]
+		],
+		'otherSkills' => [
+			"skill1, skill2"
+		],
+		'education' => [
+			[
+				'degree' => '',
+				'university' => '',
+				'graduation' => '',
+				'gpa' => ''
+			],
+			[
+				'degree' => '',
+				'university' => '',
+				'graduation' => '',
+				'gpa' => ''
+			]
+		],
+		'awards' => [
+			[
+				'name' => '',
+				'description' => ''
+			],
+			[
+				'name' => '',
+				'description' => ''
+			]
+		],
+		'languages' => [
+			"lang1", "lang2"
+		],
+		'projects' => [
+			[
+				'imageLink' => '',
+				'name' => '',
+				'description' => '',
+				'link' => ''
+			]
 		]
     ]
 ];
