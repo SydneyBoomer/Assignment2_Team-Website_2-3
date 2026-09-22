@@ -363,6 +363,7 @@ $team = [
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Member 1 name</h1>
 							    <div class="title mb-3">Member 1 role</div>
+								<!--<a href='detail.php?member=Alex"> ....-->
 								<a href="#<?php /*LINK_TO_MEMBER_1_PAGE*/ ?>" class="btn btn-secondary">See full profile</a>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
