@@ -124,7 +124,7 @@ $team = [
 			]
 		]
 	],
-    [
+    [	//person 2 information: Vic Deitsch
         'name' => '',
 		'role' => '',
 		'link' => '',
@@ -223,7 +223,7 @@ $team = [
 		]
     ],
 
-    [
+    [	//person 3 information: 
         'name' => '',
 		'role' => '',
 		'link' => '',
