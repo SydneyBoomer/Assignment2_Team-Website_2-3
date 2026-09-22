@@ -423,7 +423,10 @@ $team = [
         <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> 
 		<?php 
 		foreach ($team as $member) {
-			echo $member['name'] . " ";
+			if ($key === array_key_last($team)) {
+        		echo $member['name'] . " ";
+    		}
+			echo $member['name'] . ", ";
 		}
 		?></small>
     </footer>
