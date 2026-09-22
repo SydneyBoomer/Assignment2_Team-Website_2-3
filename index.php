@@ -3,7 +3,7 @@ $team = [
 	[
         'name' => 'Sydney Boomer',
 		'role' => '',
-		'link' => '',
+		'profilePic' => '',
 		'desiredJobTitle' => 'Software Developer',
 		'email' => 'boomers1@nku.edu',
 		'phoneNumber' => '(123) 456 - 7890',
@@ -127,7 +127,7 @@ $team = [
     [
         'name' => '',
 		'role' => '',
-		'link' => '',
+		'profilePic' => '',
 		'desiredJobTitle' => '',
 		'email' => '',
 		'phoneNumber' => '',
@@ -226,7 +226,7 @@ $team = [
     [
         'name' => '',
 		'role' => '',
-		'link' => '',
+		'profilePic' => '',
 		'desiredJobTitle' => '',
 		'email' => '',
 		'phoneNumber' => '',
