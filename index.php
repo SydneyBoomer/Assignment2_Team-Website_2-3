@@ -401,7 +401,7 @@ $team = [
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Member 1 name</h1>
 							    <div class="title mb-3">Member 1 role</div>
-								<!-- replace 1 with a variable, so it changes in each iteration of the for each loop-->
+								<!-- replace 0, so it changes in each iteration of the for each loop-->
 								<a href="<?php echo 'detail.php?member=0'; ?>" class="btn btn-secondary">See full profile</a>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
