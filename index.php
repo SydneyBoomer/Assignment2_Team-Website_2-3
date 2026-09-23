@@ -2,14 +2,15 @@
 $team = [
 	[
         'name' => 'Sydney Boomer',
-		'role' => '',
-		'profilePic' => '',
+		'role' => 'Software Sorcerer',
+		'profilePic' => 'assets\images\sydney-profile-pic.jpg',
 		'desiredJobTitle' => 'Software Developer',
 		'email' => 'boomers1@nku.edu',
 		'phoneNumber' => '(123) 456 - 7890',
 		'linkedin' => 'https://www.linkedin.com/in/sydney-boomer/',
 		'github' => 'https://github.com/SydneyBoomer',
 		'personalWebsite' => 'https://sydneyboomer.github.io/INF286_FinalProject_PersonalSite/',
+		'summary' => 'I am pursuing Bachelor of Science degrees in Computer Science and Cybersecurity, with minors in Mathematics and Honors, at Northern Kentucky University. I have experience in programming, cybersecurity, tutoring, and student leadership. I currently work as an Agency Interface Developer Intern with Cincinnati Insurance, where I am gaining hands-on software development experience. I also serve as a Supplemental Instruction Leader for Computer Systems and a Mathematics Tutor at NKU, and I am the Vice President of the NKU Women in Cybersecurity chapter.',
 		'workExperience' => [
 			[
 				'title' => 'Agency Interface Developer',
@@ -92,14 +93,12 @@ $team = [
 			[
 				'degree' => 'Bachelor of Science in Computer Science',
 				'university' => 'Northern Kentucky University',
-				'graduation' => 'Expected May 2027',
-				'gpa' => '3.987'
+				'graduation' => 'Expected May 2027'
 			],
 			[
 				'degree' => 'Bachelor of Science in Cybersecurity',
 				'university' => 'Northern Kentucky University',
-				'graduation' => 'Expected May 2027',
-				'gpa' => '3.987'
+				'graduation' => 'Expected May 2027'
 			]
 		],
 		'awards' => [
@@ -113,11 +112,25 @@ $team = [
 			]
 		],
 		'languages' => [
-			"English"
+			[
+				'language' => 'English',
+				'level' => 'Native'
+			],
+			[
+				'language' => 'Spanish',
+				'level' => 'Intermediate'
+			]
+		],
+		'interests' => [
+			//list as many as you want
+			"Reading",
+			"Programming",
+			"Horseback Riding",
+			"Baking"
 		],
 		'projects' => [
 			[
-				'imageLink' => '\assets\images\nkCyberLogo.png',
+				'imageLink' => 'assets\images\nkCyberLogo.png',
 				'name' => 'Sky Sentry: Multi-Factor Authentication System',
 				'description' => 'Developed a multi-factor authentication system with a team of three using facial recognition and RFID/swipe authentication for NKCyber and WiCyS.',
 				'link' => 'https://github.com/nkcyber/RND-SkySentry.git'
@@ -134,6 +147,7 @@ $team = [
 		'linkedin' => '',
 		'github' => '',
 		'personalWebsite' => '',
+		'summary' => '',
 		'workExperience' => [
             [
                 'title' => '',
@@ -190,14 +204,12 @@ $team = [
 			[
 				'degree' => '',
 				'university' => '',
-				'graduation' => '',
-				'gpa' => ''
+				'graduation' => ''
 			],
 			[
 				'degree' => '',
 				'university' => '',
-				'graduation' => '',
-				'gpa' => ''
+				'graduation' => ''
 			]
 		],
 		'awards' => [
@@ -211,7 +223,21 @@ $team = [
 			]
 		],
 		'languages' => [
-			"lang1", "lang2"
+			[
+				'language' => 'English',
+				//Skill should be Native, Professional, Intermediate, or Elementary
+				'level' => 'Native'
+			],
+			[
+				'language' => '',
+				'level' => ''
+			]
+		],
+		'interests' => [
+			//list as many as you want
+			"",
+			"",
+			""
 		],
 		'projects' => [
 			[
@@ -222,7 +248,6 @@ $team = [
 			]
 		]
     ],
-
     [
         'name' => '',
 		'role' => '',
@@ -233,6 +258,7 @@ $team = [
 		'linkedin' => '',
 		'github' => '',
 		'personalWebsite' => '',
+		'summary' => '',
 		'workExperience' => [
             [
                 'title' => '',
@@ -289,14 +315,12 @@ $team = [
 			[
 				'degree' => '',
 				'university' => '',
-				'graduation' => '',
-				'gpa' => ''
+				'graduation' => ''
 			],
 			[
 				'degree' => '',
 				'university' => '',
-				'graduation' => '',
-				'gpa' => ''
+				'graduation' => ''
 			]
 		],
 		'awards' => [
@@ -310,7 +334,21 @@ $team = [
 			]
 		],
 		'languages' => [
-			"lang1", "lang2"
+			[
+				'language' => 'English',
+				//Skill should be Native, Professional, Intermediate, or Elementary
+				'level' => 'Native'
+			],
+			[
+				'language' => '',
+				'level' => ''
+			]
+		],
+		'interests' => [
+			//list as many as you want
+			"",
+			"",
+			""
 		],
 		'projects' => [
 			[
@@ -363,8 +401,8 @@ $team = [
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Member 1 name</h1>
 							    <div class="title mb-3">Member 1 role</div>
-								<!--<a href='detail.php?member=Alex"> ....-->
-								<a href="#<?php /*LINK_TO_MEMBER_1_PAGE*/ ?>" class="btn btn-secondary">See full profile</a>
+								<!-- replace 1 with a variable, so it changes in each iteration of the for each loop-->
+								<a href="<?php echo 'detail.php?member=0'; ?>" class="btn btn-secondary">See full profile</a>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
 						    </div><!--//secondary-info-->
@@ -422,11 +460,12 @@ $team = [
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
         <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> 
 		<?php 
-		foreach ($team as $member) {
+		foreach ($team as $key => $member) {
 			if ($key === array_key_last($team)) {
-        		echo $member['name'] . " ";
-    		}
-			echo $member['name'] . ", ";
+				echo $member['name'];
+			} else {
+				echo $member['name'] . ", ";
+			}
 		}
 		?></small>
     </footer>
