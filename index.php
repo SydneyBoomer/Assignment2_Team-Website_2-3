@@ -138,22 +138,22 @@ $team = [
 		]
 	],
     [
-        'name' => '',
-		'role' => '',
+        'name' => 'Victoria Deitsch',
+		'role' => 'Cyber Warlock',
 		'profilePic' => '',
-		'desiredJobTitle' => '',
-		'email' => '',
-		'phoneNumber' => '',
-		'linkedin' => '',
-		'github' => '',
-		'personalWebsite' => '',
-		'summary' => '',
+		'desiredJobTitle' => 'Cybersecurity Analyst',
+		'email' => 'deitschv1@mymail.nku.edu',
+		'phoneNumber' => '111-222-3333',
+		'linkedin' => 'https://linkedin.com/in/victoria-deitsch/',
+		'github' => 'https://github.com/deitschling',
+		'personalWebsite' => 'https://victoria_deitsch.com',
+		'summary' => 'Cybersecurity Senior at Northern Kentucky University with a minor in Computer Forensics; anticipating graduation May of 2027. Ample customer experience and interest to learn. Seeking an entry level tech position or internship to build experience in the Greater Cincinnati / Northen Kentucky, in person or virtual.',
 		'workExperience' => [
             [
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
+                'title' => 'Server',
+                'description' => 'Server at a movie theater restaraunt. Responsible for handling positive guest interactions, taking accurate orders in theater houses while film is playing, delivering food & drink according to FDA standard, and handling payment transactions.',
+				'company' => 'Cinemark',
+                'timeWorked' => '2023 - Present',
 				'achievementsDescription' => '',
 				'achievements' => [
 					"achievement1", "achievement2"
