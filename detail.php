@@ -30,7 +30,7 @@
 <body>
     <article class="resume-wrapper text-center position-relative">
 		<?php /* Only the following line changed from the file in the previous assignment */ ?>
-		<div class="mb-4"><a href="index.php" class="btn btn-primary">Back to index</a></div>
+		<div class="mb-4"><a href="index.php" class="btn btn-primary"><?php echo "Back to index"?></a></div>
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 		    <header class="resume-header pt-4 pt-md-0">
 			    <div class="row">
