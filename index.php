@@ -246,7 +246,7 @@ $team = [
 				'imageLink' => 'assets/images/picture_of_project_member2.png',
 				'name' => 'Personal Website for INF 286',
 				'description' => 'Final project requiring to build a website about myself utilizing Website Development skills learned throughout INF 286 (Intro to Website Development)',
-				'link' => ''
+				'link' => 'https://www.example.com'
 			]
 		]
     ],
@@ -355,10 +355,10 @@ $team = [
 		],
 		'projects' => [
 			[
-				'imageLink' => '',
-				'name' => '',
-				'description' => '',
-				'link' => ''
+				'imageLink' => 'assets/images/member_3_project.jpg',
+				'name' => 'Lizard Gene Therapy',
+				'description' => 'Worked with Dr. Curtis Connor on research to regrow limbs with gene therapy splicing humand and lizard DNA.',
+				'link' => 'https://www.example.com'
 			]
 		]
     ]
