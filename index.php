@@ -243,7 +243,7 @@ $team = [
 		],
 		'projects' => [
 			[
-				'imageLink' => '',
+				'imageLink' => 'assets/images/picture_of_project_member2.png',
 				'name' => 'Personal Website for INF 286',
 				'description' => 'Final project requiring to build a website about myself utilizing Website Development skills learned throughout INF 286 (Intro to Website Development)',
 				'link' => ''
