@@ -137,7 +137,7 @@ $team = [
 			]
 		]
 	],
-    [
+    [	//basic information for team member 2, to be utilized by the for loop later
         'name' => 'Victoria Deitsch',
 		'role' => 'Cyber Warlock',
 		'profilePic' => '',
@@ -156,70 +156,70 @@ $team = [
                 'timeWorked' => '2023 - Present',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Most Improved Server", "Trained in All Areas"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2"
+					"Penny POS", "Linux Command Line"
 				]
             ],
 			[
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
+                'title' => 'Bookseller',
+                'description' => 'Bookseller at the Northern Kentucky University Campus Bookstore. Responsible for taking returns, processing orders, answering professional calls, calling suppliers to make and cancel orders, and maintaining a set order in the store.',
+				'company' => 'Banres & Noble Educational',
+                'timeWorked' => 'Decmeber 2022 - March 2023',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Learned to Use a Trash Compactor", "Handled Making and Cancelling Orders from Suppliers"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2"
+					"Windows 11 Office", "Barnes & Noble Educational Proprietary POS"
 				]
             ],
-			[
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
+			[	//this member has only worked two jobs, so school is listed as the third
+                'title' => 'Cybersecurity Student',
+                'description' => 'Full-time Cybersecurity student at Northern Kentucky University. Responsible for balancing a 15-16 hour class workload on top of a part time job, learning key concepts for securing critical systems, learning best coding practices with security in mind, and learning what laws govern security in cyber space.',
+				'company' => 'Northen Kentucky University',
+                'timeWorked' => 'Fall 2022 - Present',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Adnitted to the Young Scholars Academy", "Dean's List"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2"
+					"Python", "Linux Commandline"
 				]
             ]
 		],
 		'skills' => [
 			// KEEP TO TOP 5, list others in otherSkills
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0]
+			['skill' => 'Linux Command Line', 'percent' => 90],
+			['skill' => 'SQL', 'percent' => 90],
+			['skill' => 'Python', 'percent' => 85],
+			['skill' => 'Wireshark', 'percent' => 85],
+			['skill' => 'OracleDB', 'percent' => 60]
 		],
 		'otherSkills' => [
-			"skill1, skill2"
+			"Risk Management Plan Building, RStudio, Microsoft Office Suite"
 		],
 		'education' => [
 			[
-				'degree' => '',
-				'university' => '',
-				'graduation' => ''
+				'degree' => 'Bachelors of Science, Cybersecurity',
+				'university' => 'Northern Kentucky University',
+				'graduation' => 'Expected Spring 2027'
 			],
 			[
-				'degree' => '',
-				'university' => '',
-				'graduation' => ''
+				'degree' => 'High School Diploma',
+				'university' => 'Lloyd Memorial High School',
+				'graduation' => 'May 2024'
 			]
 		],
 		'awards' => [
 			[
-				'name' => '',
-				'description' => ''
+				'name' => 'Summa Cum Laude',
+				'description' => 'Graduated high school with a weighted GPA of 3.9 or above.'
 			],
 			[
-				'name' => '',
-				'description' => ''
+				'name' => 'Dean\'s List',
+				'description' => 'Final grades for a semester with a GPA of 3.5 or above.'
 			]
 		],
 		'languages' => [
@@ -229,26 +229,28 @@ $team = [
 				'level' => 'Native'
 			],
 			[
-				'language' => '',
-				'level' => ''
+				'language' => 'Italian',
+				'level' => 'Elementary'
 			]
 		],
 		'interests' => [
 			//list as many as you want
-			"",
-			"",
-			""
+			"Video Games",
+			"Comic Book Collecting",
+			"Crocheting",
+			"Knitting",
+			"Movies & TV Shows"
 		],
 		'projects' => [
 			[
 				'imageLink' => '',
-				'name' => '',
-				'description' => '',
+				'name' => 'Personal Website for INF 286',
+				'description' => 'Final project requiring to build a website about myself utilizing Website Development skills learned throughout INF 286 (Intro to Website Development)',
 				'link' => ''
 			]
 		]
     ],
-    [
+    [	//third  member information-- this will be dummy info as there are only two members on this
         'name' => '',
 		'role' => '',
 		'profilePic' => '',
