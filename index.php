@@ -254,7 +254,7 @@ $team = [
 		//this dummy information is based off of Peter Parker / Spider-Man from the Marvel Comics
         'name' => 'Peter Parker',
 		'role' => 'Photographer',
-		'profilePic' => '',
+		'profilePic' => 'assets/images/peter_profile_pic.jpg',
 		'desiredJobTitle' => 'Biochemical Scientist',
 		'email' => 'pbparker@gmail.com',
 		'phoneNumber' => '123-456-7890',
