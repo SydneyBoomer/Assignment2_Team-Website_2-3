@@ -397,7 +397,7 @@ $team = [
 			<!-- this begins the code for team member cards-->
 
 			<?php foreach($team as $member): ?>
-				<header class="resume-header pt-4 pt-md-0">
+				<header class="resume-header pt-4 pt-md-0 mb-4 border-bottom pb-4">
 					<div class="row">
 						<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
 							<img class="picture" src="<?php echo $member['profilePic']; ?>" alt="">
