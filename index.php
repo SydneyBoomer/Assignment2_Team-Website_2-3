@@ -251,88 +251,89 @@ $team = [
 		]
     ],
     [	//third  member information-- this will be dummy info as there are only two members on this
-        'name' => '',
-		'role' => '',
+		//this dummy information is based off of Peter Parker / Spider-Man from the Marvel Comics
+        'name' => 'Peter Parker',
+		'role' => 'Photographer',
 		'profilePic' => '',
-		'desiredJobTitle' => '',
-		'email' => '',
-		'phoneNumber' => '',
-		'linkedin' => '',
-		'github' => '',
-		'personalWebsite' => '',
-		'summary' => '',
+		'desiredJobTitle' => 'Biochemical Scientist',
+		'email' => 'pbparker@gmail.com',
+		'phoneNumber' => '123-456-7890',
+		'linkedin' => 'https://linkedin.com/in/peter-parker/',
+		'github' => 'https://github.com/pbparker',
+		'personalWebsite' => 'https://peter_b_parker.com',
+		'summary' => 'Twenty-two year old freelance phographer for the daily bugle. Has a Bachelors of Science in BioChemical Engineering from Empire State University, seeking assitant position for questionable scientific endeavors.',
 		'workExperience' => [
             [
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
+                'title' => 'Freelance Photographer',
+                'description' => 'Sells professional photos to the Daily Bugle on a case by case basis. Ranges from profile to investigative. Has taken a good number of shots of Spider-Man',
+				'company' => 'Daily Bugle',
+                'timeWorked' => '2022-Present',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Most Photos Taken of Spider-Menace", "Impressed J. Jonah Jameson"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2"
+					"Adobe Lightroom", "Apple Pixelmaster Pro"
 				]
             ],
 			[
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
+                'title' => 'Stark Internship',
+                'description' => 'Worked as an assistant in a lab for Tony Stark on his various projects including a mix of coding and engineering.',
+				'company' => 'Stark Industries',
+                'timeWorked' => '2019-2021',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Grant Winner of the September Foundation", "First (and only) Member of the Stark Industries Internship Program"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2"
+					"Proprietary Stark 3D modeling software", "C Programming Language"
 				]
             ],
 			[
-                'title' => '',
-                'description' => '',
-				'company' => '',
-                'timeWorked' => '',
+                'title' => 'Lab Assistant',
+                'description' => 'Woked as a junior lab assistant for Dr. Curtis Connor\'s experimental gene therapy research specializing in spider and lizard DNA.',
+				'company' => 'Oscorp',
+                'timeWorked' => '2018-2019',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"achievement1", "achievement2"
+					"Found main breakthrough in the reasearch", "Found cure when lizard research went wrong"
 				],
                 'technologiesUsed' => [
-					"tech1", "tech2"
+					"ChimeraX", "SnapGene"
 				]
             ]
 		],
 		'skills' => [
 			// KEEP TO TOP 5, list others in otherSkills
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0],
-			['skill' => '', 'percent' => 0]
+			['skill' => 'C Programming Language', 'percent' => 100],
+			['skill' => 'Python', 'percent' => 90],
+			['skill' => 'Linux Command Line', 'percent' => 90],
+			['skill' => 'ChimeraX', 'percent' => 85],
+			['skill' => 'SnapGene', 'percent' => 85]
 		],
 		'otherSkills' => [
-			"skill1, skill2"
+			"Adobe Lightroom, Microsoft Office Suite"
 		],
 		'education' => [
 			[
-				'degree' => '',
-				'university' => '',
-				'graduation' => ''
+				'degree' => 'Bachelor\'s of Science in BioChemical Engineering',
+				'university' => 'Empire State University',
+				'graduation' => 'Spring 2026'
 			],
 			[
-				'degree' => '',
-				'university' => '',
-				'graduation' => ''
+				'degree' => 'High School Diploma',
+				'university' => 'Midtown High School',
+				'graduation' => '2022'
 			]
 		],
 		'awards' => [
 			[
-				'name' => '',
-				'description' => ''
+				'name' => 'Summa Cum Laude',
+				'description' => 'Graduated high school with a weighted GPA of 3.9 or above.'
 			],
 			[
-				'name' => '',
-				'description' => ''
+				'name' => 'Dean\'s List',
+				'description' => 'Final grades for a semester with a GPA of 3.5 or above.'
 			]
 		],
 		'languages' => [
@@ -342,15 +343,15 @@ $team = [
 				'level' => 'Native'
 			],
 			[
-				'language' => '',
-				'level' => ''
+				'language' => 'Spanish',
+				'level' => 'Intermediate'
 			]
 		],
 		'interests' => [
 			//list as many as you want
-			"",
-			"",
-			""
+			"Photography",
+			"Robotics",
+			"Spider-Man"
 		],
 		'projects' => [
 			[
