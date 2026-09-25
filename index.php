@@ -408,7 +408,7 @@ $team = [
 									<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?php echo $member['name']; ?></h1>
 									<div class="title mb-3"><?php echo $member['role'];?></div>
 									<!-- replace 0, so it changes in each iteration of the for each loop-->
-									<a href="<?php echo 'detail.php?member=' . $key; ?>" class="btn btn-secondary">See full profile</a>
+									<a href="<?php echo 'detail.php?member=' . $key; ?>" class="btn btn-secondary"><?php echo "See full profile"; ?></a>
 								</div><!--//primary-info-->
 								<div class="secondary-info col-auto mt-2">
 								</div><!--//secondary-info-->
@@ -425,7 +425,7 @@ $team = [
     
     <footer class="footer text-center pt-2 pb-5">
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-        <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> 
+        <small class="copyright"><?php echo "Designed with ";?><span class="sr-only">love</span><i class="fas fa-heart"></i> 
 		<?php 
 		foreach ($team as $key => $member) {
 			if ($key === array_key_last($team)) {
