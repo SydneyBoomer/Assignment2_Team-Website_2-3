@@ -3,7 +3,7 @@ $team = [
 	[
         'name' => 'Sydney Boomer',
 		'role' => 'Software Sorcerer',
-		'profilePic' => 'assets\images\sydney-profile-pic.jpg',
+		'profilePic' => 'assets/images/sydney-profile-pic.jpg',
 		'desiredJobTitle' => 'Software Developer',
 		'email' => 'boomers1@nku.edu',
 		'phoneNumber' => '(123) 456 - 7890',
@@ -182,7 +182,7 @@ $team = [
                 'timeWorked' => 'Fall 2022 - Present',
 				'achievementsDescription' => '',
 				'achievements' => [
-					"Adnitted to the Young Scholars Academy", "Dean's List"
+					"Admitted to the Young Scholars Academy", "Dean's List"
 				],
                 'technologiesUsed' => [
 					"Python", "Linux Commandline"
@@ -198,7 +198,7 @@ $team = [
 			['skill' => 'OracleDB', 'percent' => 60]
 		],
 		'otherSkills' => [
-			"Risk Management Plan Building, RStudio, Microsoft Office Suite"
+			"Risk Management Plan Building", "RStudio", "Microsoft Office Suite"
 		],
 		'education' => [
 			[
@@ -312,7 +312,7 @@ $team = [
 			['skill' => 'SnapGene', 'percent' => 85]
 		],
 		'otherSkills' => [
-			"Adobe Lightroom, Microsoft Office Suite"
+			"Adobe Lightroom", "Microsoft Office Suite"
 		],
 		'education' => [
 			[
@@ -425,7 +425,7 @@ $team = [
     
     <footer class="footer text-center pt-2 pb-5">
 	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-        <small class="copyright"><?php echo "Designed with ";?><span class="sr-only">love</span><i class="fas fa-heart"></i> 
+        <small class="copyright"><?php echo "Designed with ";?><span class="sr-only"><?php echo "love"?></span><i class="fas fa-heart"></i> 
 		<?php 
 		foreach ($team as $key => $member) {
 			if ($key === array_key_last($team)) {
