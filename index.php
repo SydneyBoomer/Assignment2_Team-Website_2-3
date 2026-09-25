@@ -140,7 +140,7 @@ $team = [
     [	//basic information for team member 2, to be utilized by the for loop later
         'name' => 'Victoria Deitsch',
 		'role' => 'Cyber Warlock',
-		'profilePic' => '',
+		'profilePic' => 'assets/images/victoria-profile-pic.jpeg',
 		'desiredJobTitle' => 'Cybersecurity Analyst',
 		'email' => 'deitschv1@mymail.nku.edu',
 		'phoneNumber' => '111-222-3333',
