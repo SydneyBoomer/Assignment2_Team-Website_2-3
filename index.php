@@ -400,7 +400,7 @@ $team = [
 				<header class="resume-header pt-4 pt-md-0 mb-4 border-bottom pb-4">
 					<div class="row">
 						<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-							<img class="picture" src="<?php echo $member['profilePic']; ?>" alt="">
+							<img class="picture" src="<?php echo $member['profilePic']; ?>" alt="" style="width:150px; height:150px; object-fit:cover;">
 						</div><!--//col-->
 						<div class="col">
 							<div class="row p-4 justify-content-center justify-content-md-between">
